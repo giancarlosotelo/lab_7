@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  convert-reading:
+    image: convert
+    environment:
+      - GCP_PROJECT=project-f2995e59-f5d2-491f-ba8
+      - READING_SUB_ID=smartmeter-filtered-sub
+      - TOPIC_NAME=smartMeter
